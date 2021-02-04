@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Blog Site</title>
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+			<!-- Header Section -->
+	<header>
+		<div class="header">
+				<!-- Navigation -->
+			<nav>
+				<ul class="logo">
+					<li>
+						<a href="#">WBLOG</a>
+					</li>
+				</ul>
+				<ul class="site-navigation">
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="#">About</a>
+					</li>
+					<li>
+						<a href="#">Services</a>
+					</li>
+					<li>
+						<a href="#">Property</a>
+					</li>
+					<li>
+						<a href="#">Blog</a>
+					</li>
+				</ul>
+				<ul class="social-navigation">
+					<li>
+						<a href="#"><i class="fa fa-facebook"></i></a>
+					</li>
+					<li>
+						<a href="#"><i class="fa fa-instagram"></i></a>
+					</li>
+					<li>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+					</li>
+				</ul>
+				<ul class="bar">
+					<button id="show" type="button" onclick="show()">
+						<i class="fa fa-bars"></i>
+					</button>
+					<button id="hide" type="button" onclick="hide()">
+						<i class="fa fa-times"></i>
+					</button>
+				</ul>
+				<!-- slideout menu -->
+				<div id="slideout-menu" class="mob-navigation">
+					<ul class="mob-all-navigation">
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">About</a>
+						</li>
+						<li>
+							<a href="#">Services</a>
+						</li>
+						<li>
+							<a href="#">Property</a>
+						</li>
+						<li>
+							<a href="#">Blog</a>
+						</li>
+					</ul>
+					<hr class="mob-hr">
+					<ul class="mob-social-navigation">
+						<li>
+							<a href="https://www.facebook.com/mdkibria.gk"><i class="fa fa-facebook"></i></a>
+						</li>
+						<li>
+							<a href="https://github.com/md-kibria/"><i class="fa fa-instagram"></i></a>
+						</li>
+						<li>
+							<a href="https://github.com/md-kibria/"><i class="fa fa-twitter"></i></a>
+						</li>
+					</ul>
+				</div>
+			</nav>
+					<!-- Banner -->
+			<div class="banner">
+				<div class="banner-dec">
+					<span>Lifestyle, April 04 <i class="fa fa-play"></i><i class="fa fa-play"></i><i class="fa fa-play"></i></span>
+					<h2>I Shouted Above The Sudden Noise</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius molestiae ea possimus assumenda, iste dolorem atque, nam ratione optio, quas error nisi.</p>
+					<button type="button">Read More</button>
+				</div>
+				<div class="banner-img">
+					<img src="img/boy.jpg" alt="">
+				</div>
+			</div>
+		</div>
+			<!-- Subscribe Section -->
+		<div class="subs">
+			<div class="subs-dec">
+				<h2>Subscribe To My Newsletter</h2>
+				<p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+			</div>
+			<div class="subs-inp">
+				<div class="inp-fild">
+					<input type="email" placeholder="Your Email">
+				</div>
+				<div class="btn-fild">
+					<button type="submit"><span>Subscribe</span><i class="fa fa-star"></i></button>
+				</div>
+			</div>
+		</div>
+	</header>
+			<!-- Main Section -->
+	<main>
+		<section class="popular-posts">
+			<div class="sub-header">
+				<h2>Popular Articles</h2>
+				<span></span>
+			</div>
+					<!-- All Popular Posts -->
+			<div class="posts">
+					<!-- Single Popular Post -->
+				<div class="pp-card">
+					<img src="img/4.jpg" alt="">
+					<div class="card-dec">
+						<span class="card-tag">Travel</span>
+						<h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
+						<span class="card-meta">August 20, 2021</span>
+					</div>
+				</div>
+				<!-- Single Popular Post -->
+				<div class="pp-card">
+					<img src="img/2.jpg" alt="">
+					<div class="card-dec">
+						<span class="card-tag">morning</span>
+						<h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
+						<span class="card-meta">August 20, 2021</span>
+					</div>
+				</div>
+				<!-- Single Popular Post -->
+				<div class="pp-card">
+					<img src="img/3.jpg" alt="">
+					<div class="card-dec">
+						<span class="card-tag">Travel</span>
+						<h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
+						<span class="card-meta">August 20, 2021</span>
+					</div>
+				</div>
+				<!-- Single Post End -->
+			</div>
+		</section>
+		<section class="main-blog">
+			<div class="main-posts">
+				<div class="sub-header">
+					<h2>Recent Articles</h2>
+					<span></span>
+				</div>
+				<!-- Single Blog Post -->
+				<div class="post-card">
+					<img src="img/5.jpg" alt="">
+					<div class="card-dec">
+						<span class="card-tag">Travel</span>
+						<h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
+						<p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum illum magni recusandae et fuga neque eveniet, laborum maxime culpa mollitia error fugiat, beatae placeat, quibusdam assumenda.</p>
+						<button> Read More</button>
+						<div class="meta">
+							<div class="post-auth">
+								<span><i class="fa fa-user"></i> John Doe</span>
+							</div>
+							<div class="post-time">
+								<span><i class="fa fa-calendar"></i>12 August 2021</span>
+							</div>
+							<div class="post-comment">
+								<span><i class="fa fa-comments"></i>&nbsp;22 Comments</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Single Blog Post -->
+				<div class="post-card">
+					<img src="img/6.jpg" alt="">
+					<div class="card-dec">
+						<span class="card-tag">Travel</span>
+						<h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
+						<p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum illum magni recusandae et fuga neque eveniet, laborum maxime culpa mollitia error fugiat, beatae placeat, quibusdam assumenda.</p>
+						<button> Read More</button>
+						<div class="meta">
+							<div class="post-auth">
+								<span><i class="fa fa-user"></i> John Doe</span>
+							</div>
+							<div class="post-time">
+								<span><i class="fa fa-calendar"></i>12 August 2021</span>
+							</div>
+							<div class="post-comment">
+								<span><i class="fa fa-comments"></i>&nbsp;22 Comments</span>
+							</div>
+						</div>
+					</div>
+				</div><!-- Single Blog Post -->
+				<div class="post-card">
+					<img src="img/1.jpg" alt="">
+					<div class="card-dec">
+						<span class="card-tag">Travel</span>
+						<h3>Lorem ipsum dolor sit amet consectetur adipisicing</h3>
+						<p class="card-text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptatum illum magni recusandae et fuga neque eveniet, laborum maxime culpa mollitia error fugiat, beatae placeat, quibusdam assumenda.</p>
+						<button> Read More</button>
+						<div class="meta">
+							<div class="post-auth">
+								<span><i class="fa fa-user"></i> John Doe</span>
+							</div>
+							<div class="post-time">
+								<span><i class="fa fa-calendar"></i>12 August 2021</span>
+							</div>
+							<div class="post-comment">
+								<span><i class="fa fa-comments"></i>&nbsp;22 Comments</span>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- Post End -->
+
+			</div>
+			<!-- Aside -->
+			<aside class="sidebars">
+				<div class="aside-about">
+					<div class="sub-header">
+						<h2>About Me</h2>
+						<span></span>
+					</div>
+					<!-- Aside About -->
+					<div class="aside-about-card">
+						<img src="img/parallax1.jpg" alt="">
+						<div class="card-dec">
+							<h3>John Doe</h3>
+							<p class="prof">Web Developer</p>
+							<hr>
+							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa repellat atque voluptatem iste ipsum. Laborum iste temporibus ad, soluta accusamus natus ipsa fugiat.</p>
+							<button>Read More</button>
+						</div>
+					</div>
+				</div>
+				<!-- Aside Search -->
+				<div class="aside-inp">
+					<div class="inp-fild">
+						<input type="text" placeholder="Search...">
+					</div>
+					<div class="btn-fild">
+						<button type="submit"><i class="fa fa-search"></i></button>
+					</div>
+				</div>
+				<!-- Aside Category -->
+				<div class="category-section">
+					<div class="sub-header">
+						<h2>Categoryes</h2>
+						<span></span>
+					</div>
+					<div class="categoryes">
+						<ul>
+							<li>
+								<a href="">Development</a>
+								<span class="num">6</span>
+							</li>
+							<li>
+								<a href="">Programming</a>
+								<span class="num">3</span>
+							</li>
+							<li>
+								<a href="">Digital Marketing</a>
+								<span class="num">0</span>
+							</li>
+							<li>
+								<a href="">SEO</a>
+								<span class="num">2</span>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<!-- Aside Category -->
+				<div class="tags-section">
+					<div class="sub-header">
+						<h2>Tags</h2>
+						<span></span>
+					</div>
+					<div class="tag">
+						<span class="single-tag">
+							<a href="">Html</a>
+						</span>
+						<span class="single-tag">
+							<a href="">Css</a>
+						</span>
+						<span class="single-tag">
+							<a href="">JavaScript</a>
+						</span>
+						<span class="single-tag">
+							<a href="">Php</a>
+						</span>
+						<span class="single-tag">
+							<a href="">Sass</a>
+						</span>
+						<span class="single-tag">
+							<a href="">Bootstrap</a>
+						</span>
+						<span class="single-tag">
+							<a href="">Xampp</a>
+						</span>
+					</div>
+				</div>
+				<!-- Aside Olderposts -->
+				<div class="older-posts-section">
+					<div class="sub-header">
+						<h2>Older Posts</h2>
+						<span></span>
+					</div>
+					<div class="older-posts">
+						<!-- Single Post-->
+						<div class="older-post">
+							<div class="img-thumbnail">
+								<img src="img/pic6.jpg" alt="">
+							</div>
+							<div class="older-post-dec">
+								<h3>The older post title here</h3>
+								<p><span>&#128337;</span>12 Jan 2021</p>
+							</div>
+						</div>
+						<!-- Single Post-->
+						<div class="older-post">
+							<div class="img-thumbnail">
+								<img src="img/truck.jpg" alt="">
+							</div>
+							<div class="older-post-dec">
+								<h3>The older post title here</h3>
+								<p><span>&#128337;</span>12 Jan 2021</p>
+							</div>
+						</div>
+						<!-- Single Post-->
+						<div class="older-post">
+							<div class="img-thumbnail">
+								<img src="img/2.jpg" alt="">
+							</div>
+							<div class="older-post-dec">
+								<h3>The older post title here</h3>
+								<p><span>&#128337;</span>12 Jan 2021</p>
+							</div>
+						</div>
+						<!-- Single Post-->
+						<div class="older-post">
+							<div class="img-thumbnail">
+								<img src="img/3.jpg" alt="">
+							</div>
+							<div class="older-post-dec">
+								<h3>The older post title here</h3>
+								<p><span>&#128337;</span>12 Jan 2021</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</aside>
+		</section>
+		<!-- Pagination -->
+		<section class="pagination">
+			<a href="#">&laquo;</a>
+			<a class="active" href="#">1</a>
+			<a href="#">2</a>
+			<a href="#">3</a>
+			<a href="#">4</a>
+			<a href="#">&raquo;</a>
+		</section>
+	</main>
+	<footer>
+		<div class="footer">
+			<!-- Footer Image Grid -->
+			<div class="footer-img">
+				<div class="img">
+					<img src="img/3.jpg" alt="">
+				</div>
+				<div class="img">
+					<img src="img/boy.jpg" alt="">
+				</div>
+				<div class="img">
+					<img src="img/4.jpg" alt="">
+				</div>
+				<div class="img">
+					<img src="img/1.jpg" alt="">
+				</div>
+			</div>
+			<!-- Footer Navigations  -->
+			<div class="footer-navigation">
+				<h1>WBLOG</h1>
+				<ul class="navigation">
+					<li>
+						<a href="#">Home</a>
+					</li>
+					<li>
+						<a href="#">About Us</a>
+					</li>
+					<li>
+						<a href="#">Portfolio</a>
+					</li>
+					<li>
+						<a href="#">Privacy Policy</a>
+					</li>
+					<li>
+						<a href="#">Term of Service</a>
+					</li>
+				</ul>
+			</div>
+			<hr>
+			<!-- Developer Copyrights -->
+			<div class="copyrights">
+				<p>&copy; All Rights Reserved By <a style="color: #eee;" href="https://github.com/md-kibria/">Md Kibria</a></p>
+				<ul class="social-navigation">
+					<li>
+						<a href="https://www.facebook.com/mdkibria.gk"><i class="fa fa-facebook"></i></a>
+					</li>
+					<li>
+						<a href="https://github.com/md-kibria/"><i class="fa fa-instagram"></i></a>
+					</li>
+					<li>
+						<a href="https://github.com/md-kibria/"><i class="fa fa-twitter"></i></a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+	<script src="js/main.js"></script>
+</body>
+</html>
